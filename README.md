@@ -6,18 +6,18 @@ Linux is a multi-user operating system, allowing multiple users to access and wo
 - **Controlled access**
 - **System integrity**
 
-## 🛠️ Setup Linux Environment (Windows / macOS)
+##  Setup Linux Environment (Windows / macOS)
 
 ### Prerequisites
 
-- Install Docker Desktop 👉 [Download Here](https://docs.docker.com/desktop/setup/install/windows-install/)
+- Install Docker Desktop  [Download Here](https://docs.docker.com/desktop/setup/install/windows-install/)
 - Install WSL (Windows users only)
 
 ```bash
 wsl --install
 ```
 
-## 📦 Run Ubuntu Linux Container (Persistent Setup)
+##  Run Ubuntu Linux Container (Persistent Setup)
 
 1. Create a folder named `ubuntu-data` anywhere (example: `D:/cloudlearning/ubuntu-cont`)
 2. Run the below command in PowerShell (update your path):
@@ -38,7 +38,7 @@ docker run -dit `
   ubuntu:latest /bin/bash
 ```
 
-## 📁 Important System Directories
+##  Important System Directories
 
 | Directory | Description |
 |-----------|-------------|
@@ -47,7 +47,7 @@ docker run -dit `
 | `/var` | Logs, cache, variable data |
 | `/etc` | System configuration files |
 
-## 👤 User & Application-Specific Directories
+##  User & Application-Specific Directories
 
 | Directory | Description |
 |-----------|-------------|
@@ -56,7 +56,7 @@ docker run -dit `
 | `/srv` | Service-specific data |
 | `/root` | Root user's home directory |
 
-## 📘 Authentication & Account Information Files
+##  Authentication & Account Information Files
 
 | File | Purpose |
 |------|---------|
@@ -65,27 +65,27 @@ docker run -dit `
 | `/etc/group` | Stores group info |
 | `/etc/gshadow` | Secure group details |
 
-## 👥 User Management Commands
+##  User Management Commands
 
-### ⭐ Create a User
+###  Create a User
 
 ```bash
 adduser username
 ```
 
-### ⭐ Switch to Another User
+###  Switch to Another User
 
 ```bash
 su - username
 ```
 
-### ⭐ Set or Change Password
+###  Set or Change Password
 
 ```bash
 passwd username
 ```
 
-### ⭐ Modify User
+###  Modify User
 
 Change username:
 
@@ -93,7 +93,7 @@ Change username:
 usermod -l new_username old_username
 ```
 
-### ⭐ Delete User (without removing home directory)
+###  Delete User (without removing home directory)
 
 ```bash
 userdel username
