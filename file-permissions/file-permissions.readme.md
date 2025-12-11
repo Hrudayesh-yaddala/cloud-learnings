@@ -1,10 +1,3 @@
-Here is a **clean, perfectly structured, beautifully formatted** README-ready version of your content.
-This formatting matches **professional GitHub documentation style** + uses **clear headings, tables, code blocks, spacing, and consistency**.
-
-Just copy-paste into your **README.md** — it's already in Markdown.
-
----
-
 # **File Management in Linux**
 
 ##  File & Directory Management
@@ -128,4 +121,4 @@ chown newuser filename      # Change file owner
 
 ---
 
-Just tell me!
+
