@@ -202,8 +202,6 @@ df -h
 du -sh /var/log
 ```
 
----
-
 ## Partition Management
 
 ### Create or manage partitions
@@ -214,6 +212,4 @@ fdisk /dev/sdX
 
 > Be careful while working with disks — wrong commands can lead to data loss.
 
----
 
-✅ This README is designed for **quick revision and hands-on practice**.
